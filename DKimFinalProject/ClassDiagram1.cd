@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DKimFinalProject.Tack" Collapsed="true">
+    <Position X="10" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEACIAAAAgAAAIAAICAAAAQgAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Tack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DKimFinalProject.Shared" Collapsed="true">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEAAAADAAAAAAAAAAAAAAABAAAIAQAACAAAACAAAAA=</HashCode>
+      <FileName>Shared.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DKimFinalProject.Noguri" Collapsed="true">
+    <Position X="3" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAUAAlCAIqACYggCQNgBIakAUAREAYEIQAEAAQBAAag=</HashCode>
+      <FileName>Noguri.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DKimFinalProject.MenuComponent" Collapsed="true">
+    <Position X="6.25" Y="3.5" Width="2.5" />
+    <InheritanceLine Type="Microsoft.Xna.Framework.DrawableGameComponent" ManuallyRouted="true">
+      <Path>
+        <Point X="6.5" Y="1.441" />
+        <Point X="6.5" Y="1.858" />
+        <Point X="14.702" Y="1.858" />
+        <Point X="14.702" Y="3.76" />
+        <Point X="7.5" Y="3.76" />
+        <Point X="7.5" Y="3.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQIAEAAAAgAAgAAAIAQIAAACABgAAAAAIAIAAAAAAA=</HashCode>
+      <FileName>MenuComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DKimFinalProject.Ladder" Collapsed="true">
+    <Position X="12.25" Y="2.25" Width="2" />
+    <InheritanceLine Type="Microsoft.Xna.Framework.DrawableGameComponent" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="1.441" />
+        <Point X="6.5" Y="1.875" />
+        <Point X="13.5" Y="1.875" />
+        <Point X="13.5" Y="2.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAIAgAAgAAAIAAICAAAAQgAAAAAAAACABAAAA=</HashCode>
+      <FileName>Ladder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DKimFinalProject.Item" Collapsed="true">
+    <Position X="7.75" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAECAIABAggAAAIAAICAAAAQgAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DKimFinalProject.Ground" Collapsed="true">
+    <Position X="5.5" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAQAAEAAIAgEAgAAAIAAICQQACBgAAAEIAACCABAAgA=</HashCode>
+      <FileName>Ground.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DKimFinalProject.GameNoguri" Collapsed="true">
+    <Position X="0.5" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QAUAEEAAggAAAwoAgQCIEgAAgQAAAAkAAAAAAEABAAw=</HashCode>
+      <FileName>GameNoguri.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DKimFinalProject.Scene" Collapsed="true">
+    <Position X="3" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAoAAEACAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scenes\Scene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DKimFinalProject.AboutScene" Collapsed="true">
+    <Position X="2" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAgAAAAAAAAAAAAAAAAAIAAAAAAAAIAA=</HashCode>
+      <FileName>Scenes\AboutScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DKimFinalProject.ClearScene" Collapsed="true">
+    <Position X="2" Y="7.25" Width="1.75" />
+    <InheritanceLine Type="DKimFinalProject.Scene" FixedToPoint="true">
+      <Path>
+        <Point X="4.125" Y="5.691" />
+        <Point X="4.125" Y="5.95" />
+        <Point X="3.898" Y="5.95" />
+        <Point X="3.898" Y="7.096" />
+        <Point X="3" Y="7.096" />
+        <Point X="3" Y="7.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAgAAAAAAAAAAAAAAAAAIAAAAAAAAIAA=</HashCode>
+      <FileName>Scenes\ClearScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DKimFinalProject.GameOverScene" Collapsed="true">
+    <Position X="4" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAgAAAAAAAAAAAAAAAAAIAAAAAAAAIAA=</HashCode>
+      <FileName>Scenes\GameOverScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DKimFinalProject.HelpScene" Collapsed="true">
+    <Position X="4" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAgAAAAAAAAAAAAAAAAAIAAAAAAAAIAA=</HashCode>
+      <FileName>Scenes\HelpScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DKimFinalProject.MainScene" Collapsed="true">
+    <Position X="6" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAgAAAIAQIAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scenes\MainScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DKimFinalProject.PlayScene" Collapsed="true">
+    <Position X="8" Y="6.25" Width="1.75" />
+    <InheritanceLine Type="DKimFinalProject.Scene" ManuallyRouted="true">
+      <Path>
+        <Point X="4.125" Y="5.691" />
+        <Point X="4.125" Y="6.906" />
+        <Point X="8.875" Y="6.906" />
+        <Point X="8.875" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAEAAABgQAAAgAACAAACAYCAgIAggAAQEAIAA=</HashCode>
+      <FileName>Scenes\PlayScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Xna.Framework.DrawableGameComponent" Collapsed="true">
+    <Position X="5.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.Xna.Framework.Game" Collapsed="true">
+    <Position X="0.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
